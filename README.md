@@ -1,6 +1,6 @@
 ## Webpage Unicode Text Extractor
 
-This Python script allows you to extract text from a webpage and save it to a text file.
+This Python script allows you to extract unicode text from a webpage and save it to a text file.
 
 ### Tools used
 
@@ -39,5 +39,5 @@ Enter the name of the output text file: [Enter filename here]
 
 
 
-**Note: **
+**Note:**
 Although the original intent of this project was to web scrape unicode texts of regional languages, this code script works on all websites. It will output a text file of the website. 
