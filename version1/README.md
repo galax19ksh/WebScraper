@@ -24,7 +24,7 @@ git clone https://github.com/galax19ksh/WebScraper.git
 2. Run the script:
 
 ```bash
-python3 main.py
+python3 ws1.py
 ```
 
 3. Enter the URL of the webpage when prompted.
