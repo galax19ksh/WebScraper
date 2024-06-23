@@ -52,6 +52,7 @@ def extract_and_save_unicode_text(url, start_chapter, end_chapter, starting_file
                 file_counter += 1
             else:
                 print(f"No Unicode text found on chapter {chapter}.")
+                break # Exit the loop (discontinue running) after encountering "No Unicode text found on chapter"
         else:
             print(f"Failed to fetch chapter {chapter}.")
 
