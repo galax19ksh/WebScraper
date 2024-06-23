@@ -1,4 +1,4 @@
-## Webpage Unicode Text Extractor
+## Webpage Unicode Text Extractor VERSION 1
 
 This Python script allows you to extract unicode text from a webpage and save it to a text file.
 
