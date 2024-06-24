@@ -3,7 +3,7 @@ This repository contains mutiple versions of codes for extracting text from webp
 
 
 #### Major Tools Used: 
-`beautifulsoup` 
+`beautifulsoup` `selenium`
 
 ### Source Code
 
