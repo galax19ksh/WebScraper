@@ -7,11 +7,13 @@ This repository contains mutiple versions of codes for extracting text from webp
 
 ### Source Code
 
-[Version 1](https://github.com/galax19ksh/WebScraper/tree/main/version1): Extracts Unicode text from a single webpage and saves it to a file.
+[Version 1](https://github.com/galax19ksh/WebScraper/tree/main/version1): Extracts Unicode text (manipuri) from a single webpage and saves it to a file.
 
 [Version 2](https://github.com/galax19ksh/WebScraper/tree/main/version2): Extracts text from a range of URLs with similar structure within a website and saves them to separate files.There is also version 2.5 that takes file no as inputs.
 
 [Version 3](https://github.com/galax19ksh/WebScraper/tree/main/version3): Dynamically extracts unicode from all the links in the desired section of a website and then saves them into separate files. It can also handle failures by running another code.
+
+[Version 4](https://github.com/galax19ksh/WebScraper/tree/main/version4): Same as version 4 code except it is for scraping parallel english data. 
 
 **Note:** 
 * You might need to make small changes or tweaks to the source code to make it work for other websites.
