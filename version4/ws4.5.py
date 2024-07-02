@@ -46,7 +46,7 @@ def extract_links_as_queue(html):
     # Base URL for prepending
     base_url = "https://live.bible.is"
 
-    # Find all anchor tags (a) with href containing "MNIBIV"
+    # Find all anchor tags (a) with href containing "ENGESV"
     for a in soup.find_all('a', href=True):
         if "ENGESV" in a['href']:
             # Prepend base URL only if not the input URL
@@ -54,7 +54,7 @@ def extract_links_as_queue(html):
                 link = base_url + a['href']
                 links.append(link)
             else:
-                # Add the original input URL if it contains "MNIBIV"
+                # Add the original input URL if it contains "ENGESV"
                 links.append(a['href'])
 
     return links
@@ -75,7 +75,7 @@ def extract_and_save_english_text(links):
   Args:
       links (deque): Queue containing URLs to process.
   """
-  failed_links = deque()  # Queue to store links with failed Unicode generation
+  failed_links = deque()  # Queue to store links with failed text generation
   group_counter = {}  # Dictionary to store counter for each group
   for url in links:
     try:
@@ -92,8 +92,8 @@ def extract_and_save_english_text(links):
         group_counter[group] += 1
         counter = group_counter[group]  # Use the group-specific counter
 
-        # Customize this part to extract your desired Unicode text
-        # Here, we'll extract all text elements with characters beyond ASCII range
+        # Customize this part to extract your desired text
+        # Here, we'll extract all text elements english
         english_text = ''.join([element.text for element in soup.find_all(string=True)])
         if english_text:
           filename = f"eng{group}{counter}.txt"  # Generate filename with group and counter
