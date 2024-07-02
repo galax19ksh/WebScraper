@@ -56,7 +56,7 @@ def extract_and_save_english_text(links):
         group, chapter = url_parts[0], url_parts[1]
 
         # Customize this part to extract your desired text
-        # Here, we'll extract all text elements with characters beyond ASCII range
+        # Here, we'll extract all text elements
         english_text = ''.join([element.text for element in soup.find_all(string=True) if any(ord(char) > 127 for char in element.string)])
 
         if english_text:
