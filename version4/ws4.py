@@ -13,7 +13,7 @@ def fetch_webpage(url):
 
 def extract_english_text(html):
     soup = BeautifulSoup(html, 'html.parser')
-    # Extract text from HTML elements containing Unicode characters
+    # Extract text from HTML elements
     english_text = ''.join([element.text for element in soup.find_all(string=True)])
     return english_text
 
