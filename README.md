@@ -1,7 +1,7 @@
 ## Web Scraper - unicode text
 This repository contains mutiple versions of source codes for extracting text from webpages. This project is originally intended for creating corpus data that could be used in Machine Translation and other NLP tasks. [This bible website](https://live.bible.is/bible/MNIBIV/GEN/1) has potentially a fairly huge text data of english along with parallel translation to almost all other languages. I wanted to write some python script using useful libraries like beautifulsoup, selenium etc that can automatically scrap Manipuri text as they are necessary especially for low resource language processing.
 ![image](https://github.com/user-attachments/assets/ad75f235-88f5-4125-a7e7-e8d9e959f2ea)
-
+![image](https://github.com/user-attachments/assets/16978d97-99f8-42ff-b15e-ee9f3aa4d1f0)
 
 #### Major Tools Used: 
 `beautifulsoup` `selenium`
@@ -18,4 +18,4 @@ This repository contains mutiple versions of source codes for extracting text fr
 
 **Note:** 
 * You might need to make small changes or tweaks to the source code to make it work for other websites.
-* This is a work in progress. Will keep updating!
+* Source code implemented for last part (glyph to proper unicode text) of second image shown above is not uploaded in this repo yet.
