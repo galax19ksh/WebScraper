@@ -1,4 +1,4 @@
 Requirement: python version 2.7
-About: This code is for converting pdf files with non-standard unicode mapping used by local newspapers for Manipuri language (Bengali script). It takes a directory containing txt files as input and outputs corresponding txt files in another directory specified by the user. It might not work well on some newspapers.
+About: This code is for converting pdf files with non-standard unicode mapping used by local newspapers for Manipuri language (Bengali script) into proper unicode. It takes a directory containing txt files as input and outputs corresponding txt files in another directory specified by the user. It might not work well on some newspapers.
 Note: Convert pdfs into txt files before by using the other codes in the repo.
 Ownership: This is a joint work of a lab I previously worked at. I do not claim ownership to the code by uploading on my github.
