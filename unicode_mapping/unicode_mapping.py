@@ -1,14 +1,16 @@
+#Originally intended for newspapers like Sangai Express
+
 #!/usr/bin/env python
 # -*-  coding: utf-8  -*-
 import sys
 import os
 
 
-# give input folder name here, containing text files
-path = "/mnt/mydisk/Manipuri MT/WebScrap/Newspaper to text /mn newspaper 2023- text raw"
+# give input directory name here, containing text files
+path = "in"
 print(path)
-# give output folder name here, output text files will be generated here
-path_op = "/mnt/mydisk/Manipuri MT/WebScrap/Newspaper to text /newspaper corpus"
+# give output directory name here, output text files will be generated here
+path_op = "out"
 dir_count = 0
 subdir_count = 0
 files = os.listdir(path)
